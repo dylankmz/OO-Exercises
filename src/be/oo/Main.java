@@ -4,9 +4,11 @@ public class Main {
 
     public static void main (String[] args) {
 
-        Lamp l1 = new Lamp("Osram", 30);
+        Lamp l1 = new Lamp();
+        l1.setMerk("Osram");
+        l1.setVermogen(30);
 
-        System.out.println(l1);
+        System.out.println(l1.toString());
     }
 
 }

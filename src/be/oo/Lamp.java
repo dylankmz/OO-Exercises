@@ -5,7 +5,7 @@ public class Lamp {
     private String merk;
     private int vermogen;
 
-    public Lamp(String merk, int vermogen) {
+    public Lamp() {
 
     }
 
@@ -27,6 +27,6 @@ public class Lamp {
 
     @Override
     public String toString() {
-        return "Kenmerken van de lamp: " + merk + '-' + vermogen + "Watt";
+        return "Kenmerken van de lamp: " + merk + '-' + vermogen + " Watt";
     }
 }
