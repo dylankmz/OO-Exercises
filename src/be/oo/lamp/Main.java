@@ -1,4 +1,4 @@
-package be.oo;
+package be.oo.lamp;
 
 public class Main {
 
