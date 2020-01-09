@@ -35,8 +35,9 @@ public class Cirkel {
 
     @Override
     public String toString() {
-        return "Cirkel{" + "straal=" + straal + ", kleur='" + kleur + '\'' + '}';
+        return "De kleur van de cirkel is " + kleur + " en de straal van de cirkel " + straal;
     }
+
 
     public void geefOmtrek() {
         this.straal = 2 * Math.PI * straal;
