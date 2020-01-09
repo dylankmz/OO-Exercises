@@ -34,7 +34,12 @@ public class Leerling {
         this.niveau = niveau;
     }
 
-    public static void verhoogNiveau() {
-        
+    public void verhoogNiveau() {
+        niveau++;
+    }
+
+    @Override
+    public String toString() {
+        return "Niveau van " + naam + " is momenteel: " + niveau;
     }
 }
