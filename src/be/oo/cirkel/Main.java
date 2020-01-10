@@ -11,9 +11,9 @@ public class Main {
         c2.setStraal(5.5);
         c2.geefOmtrek();
 
-        System.out.println(c1);
-        System.out.println(c2);
-        System.out.println(c2);
+        System.out.println(c1.toString());
+        System.out.println(c2.toString());
+        System.out.println("De omtrek van cirkel2 is: " + c2.geefOmtrek());
 
 
 

@@ -10,6 +10,7 @@ public class Cirkel {
 
     public Cirkel(String kleur) {
         this.kleur = kleur;
+        this.straal = 0;
     }
 
     public Cirkel(double straal, String kleur) {
@@ -33,17 +34,24 @@ public class Cirkel {
         this.kleur = kleur;
     }
 
-    @Override
-    public String toString() {
-        return "De kleur van de cirkel is " + kleur + " en de straal van de cirkel " + straal;
-    }
 
 
-    public void geefOmtrek() {
-        this.straal = 2 * Math.PI * straal;
+
+    public double geefOmtrek() {
+        return 2 * Math.PI * straal;
     }
 
     public double geefOppervlakte(double straal) {
         return Math.PI * straal * straal;
     }
+
+
+
+
+
+    @Override
+    public String toString() {
+        return "De kleur van de cirkel is " + kleur + " en de straal van de cirkel " + straal;
+    }
+
 }
