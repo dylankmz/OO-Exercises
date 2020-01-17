@@ -6,8 +6,7 @@ public class Docent extends Persoon {
 
     private String specialisatie;
 
-    private String[] studenten = new String[20];
-    private int numberofItems = studenten.length;
+    private Student[] studenten = new Student[20];
 
     public String getSpecialisatie() {
         return specialisatie;
@@ -17,30 +16,37 @@ public class Docent extends Persoon {
         this.specialisatie = specialisatie;
     }
 
-    public String[] getStudenten() {
+    public Student[] getStudenten() {
         return studenten;
     }
 
-    public void setStudenten(String[] studenten) {
+    public void setStudenten(Student[] studenten) {
         this.studenten = studenten;
     }
 
-    public int getNumberofItems() {
-        return numberofItems;
-    }
-
-    public void setNumberofItems(int numberofItems) {
-        this.numberofItems = numberofItems;
-    }
-
-    public void voegStudent(String[] studenten) {
-        for (int i = 0; i < numberofItems ; i++) {
-            String name = studenten[i];
+    public void voegStudent(Student student) {
+        for (int i = 0; i < studenten.length; i++) {
+            if (studenten[i] == null) {
+                studenten[i] = student;
+                break;
+            }
         }
+    }
+
+    public String getStudentName() {
+        StringBuilder studentenName = new StringBuilder();
+        for (int i = 0; i < studenten.length; i++) {
+            if (studenten[i] != null) {
+                studentenName.append(studenten[i].getNaam() + ", ");
+            }
+        }
+        String name;
+        return name = studentenName.substring(0, studentenName.lastIndexOf(","))+".";
     }
 
     @Override
     public String toString() {
-        return "[Docent " + getId() + " " + getNaam() + ", " + "specialisatie: " + specialisatie + ", " + "(studenten: " + studenten + " )]";
+
+        return "[Docent " + getId() + " " + getNaam() + ", " + "specialisatie: " + specialisatie + ", " + "(studenten: " + getStudentName().toString() + " )]";
     }
 }
