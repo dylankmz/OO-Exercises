@@ -15,8 +15,8 @@ public class Persoon {
     }
 
     public Persoon() {
-        this.naam = "Onbekend";
-        this.adres = "Belgie";
+        this.naam = "onbekend";
+        this.adres = "onbekend, België";
         aantalPersonen++;
         this.id = aantalPersonen;
     }

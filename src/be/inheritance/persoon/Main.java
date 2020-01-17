@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         Persoon p1 = new Persoon();
-        p1.setNaam("Frans DeWitte");
-        p1.setAdres("Brussel, België");
+        p1.getNaam();
+        p1.getAdres();
         System.out.println(p1.toString());
 
         Persoon p2 = new Persoon();
