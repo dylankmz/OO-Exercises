@@ -5,6 +5,11 @@ public class Voertuig {
     private String merk;
     private String model;
 
+    public Voertuig(String merk, String model) {
+        this.merk = merk;
+        this.model = model;
+    }
+
     public String getMerk() {
         return merk;
     }

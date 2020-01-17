@@ -6,13 +6,12 @@ public class Vrachtwagen extends Voertuig {
     private int huidigeLading;
     private boolean trailer;
 
-    public Vrachtwagen(int maxLaadvermogen, boolean trailerofNiet) {
+
+    public Vrachtwagen(String merk, String model, int maxLaadvermogen, int huidigeLading, boolean trailer) {
+        super(merk, model);
         this.maxLaadvermogen = maxLaadvermogen;
+        this.huidigeLading = huidigeLading;
         this.trailer = trailer;
-    }
-
-    public Vrachtwagen() {
-
     }
 
     public int getMaxLaadvermogen() {
@@ -42,23 +41,23 @@ public class Vrachtwagen extends Voertuig {
     //Methodes
 
     public boolean laden(double lading) {
-        if (huidigeLading <= 0) {
+        if (lading <= 0) {
             return false;
         }
 
-        if ((huidigeLading + huidigeLading) <= maxLaadvermogen) {
-            huidigeLading = huidigeLading + huidigeLading;
+        if ((huidigeLading += lading) <= maxLaadvermogen) {
+            huidigeLading += lading;
             return true;
-
-        } return false;
+        }
+        return false;
     }
 
     public boolean lossen() {
         if (huidigeLading > 0) {
             huidigeLading = 0;
             return true;
-
-        } return false;
+        }
+        return false;
     }
 
     @Override

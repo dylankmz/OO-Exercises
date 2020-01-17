@@ -5,12 +5,11 @@ public class Bus extends Voertuig{
     private int maxAantalPassagiers;
     private int aantalPassagiers;
 
-    public Bus(int maxAantalPassagiers) {
+
+    public Bus(String merk, String model, int maxAantalPassagiers, int aantalPassagiers) {
+        super(merk, model);
         this.maxAantalPassagiers = maxAantalPassagiers;
-    }
-
-    public Bus() {
-
+        this.aantalPassagiers = aantalPassagiers;
     }
 
     public int getMaxAantalPassagiers() {
