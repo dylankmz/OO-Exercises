@@ -40,9 +40,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.oo.leerling.Main" />
       <module name="Advanced Exercises" />
@@ -82,6 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.inheritance.voertuig.Main" />
+      <module name="Advanced Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.inheritance.voertuig.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.oo.Main" />
       <module name="Advanced Exercises" />
@@ -97,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
@@ -127,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578598528300</updated>
       <workItem from="1578598530620" duration="8178000" />
-      <workItem from="1579209408754" duration="5606000" />
+      <workItem from="1579209408754" duration="11107000" />
     </task>
     <servers />
   </component>
@@ -135,38 +149,44 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2453" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1579213501916">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state x="676" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1579221718041">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="2453" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579213501916" />
+    <state x="676" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579221718041" />
+    <state x="2453" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579218325063" />
     <state x="2453" y="231" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1578601047829" />
-    <state width="1878" height="170" key="GridCell.Tab.0.bottom" timestamp="1579216750874">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1638" height="164" key="GridCell.Tab.0.bottom" timestamp="1579222395205">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1878" height="170" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216750874" />
+    <state width="1638" height="164" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579222395205" />
+    <state width="1878" height="170" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216865884" />
     <state width="1638" height="200" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578648124493" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1578600007169" />
-    <state width="1878" height="170" key="GridCell.Tab.0.center" timestamp="1579216750873">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1638" height="164" key="GridCell.Tab.0.center" timestamp="1579222395202">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1878" height="170" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216750873" />
+    <state width="1638" height="164" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579222395202" />
+    <state width="1878" height="170" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216865883" />
     <state width="1638" height="200" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578648124492" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1578600007162" />
-    <state width="1878" height="170" key="GridCell.Tab.0.left" timestamp="1579216750871">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1638" height="164" key="GridCell.Tab.0.left" timestamp="1579222395201">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1878" height="170" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216750871" />
+    <state width="1638" height="164" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579222395201" />
+    <state width="1878" height="170" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216865882" />
     <state width="1638" height="200" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578648124491" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1578600007160" />
-    <state width="1878" height="170" key="GridCell.Tab.0.right" timestamp="1579216750874">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1638" height="164" key="GridCell.Tab.0.right" timestamp="1579222395204">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1878" height="170" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216750874" />
+    <state width="1638" height="164" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579222395204" />
+    <state width="1878" height="170" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216865884" />
     <state width="1638" height="200" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578648124493" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1578600007168" />
-    <state x="2149" y="179" key="SettingsEditor" timestamp="1579212246124">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state x="410" y="174" key="SettingsEditor" timestamp="1579219346147">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="410" y="174" key="SettingsEditor/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579219346147" />
     <state x="2149" y="179" key="SettingsEditor/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579212246124" />
   </component>
 </project>
