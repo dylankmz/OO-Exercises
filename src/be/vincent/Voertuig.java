@@ -69,6 +69,7 @@ public abstract class Voertuig {
         this.klant = klant;
     }
 
+
     @Override
     public String toString() {
         return "Voertuig{" + "merk='" + merk + '\'' +

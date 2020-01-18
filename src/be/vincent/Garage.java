@@ -6,7 +6,7 @@ public class Garage {
     private String employee;
     private String garageName;
 
-    //Statischevariabele is een variabele die behoort tot de klasse (het is een variabele die geschakeld is aan de klasse)
+    //Statischevariabele (membervariabele) is een variabele die behoort tot de klasse (het is een variabele die geschakeld is aan de klasse)
     private static Voertuig[] tekoopVoertuig = new Voertuig[50];
     private Voertuig[] tereparerenVoertuig;
 
@@ -55,7 +55,6 @@ public class Garage {
                 carIsAdded = true;
                 System.out.println("Car is added to stock!");
                 break;
-
             }
         }
         if (carIsAdded == false) {
@@ -73,16 +72,22 @@ public class Garage {
                 break;
             }
         }
-        if (carIsInStock == false) {
-            System.out.println("Car is not found in stock");
+
+        if (carIsInStock == false)  {
             printavailableCars();
+
+            try {
+                throw new Exception("Car is not available to sell!");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 
     public void printavailableCars() {
         for (int i = 0; i < tekoopVoertuig.length; i++) {
             if (tekoopVoertuig[i] != null)
-            System.out.println(tekoopVoertuig[i].getModel());
+            System.out.println(tekoopVoertuig[i].getMerk());
         }
     }
 }
