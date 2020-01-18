@@ -9,14 +9,16 @@ public abstract class Voertuig {
     private String brandstof;
     private String plaque;
     private String aantalWielen;
+    private String klant;
 
 
-    public Voertuig(String merk, String model, String brandstof, String plaque, String aantalWielen) {
+    public Voertuig(String merk, String model, String brandstof, String plaque, String aantalWielen, String klant) {
         this.merk = merk;
         this.model = model;
         this.brandstof = brandstof;
         this.plaque = plaque;
         this.aantalWielen = aantalWielen;
+        this.klant = klant;
     }
 
     public String getMerk() {
@@ -57,5 +59,24 @@ public abstract class Voertuig {
 
     public void setAantalWielen(String aantalWielen) {
         this.aantalWielen = aantalWielen;
+    }
+
+    public String getKlant() {
+        return klant;
+    }
+
+    public void setKlant(String klant) {
+        this.klant = klant;
+    }
+
+    @Override
+    public String toString() {
+        return "Voertuig{" + "merk='" + merk + '\'' +
+                ", model='" + model + '\'' +
+                ", brandstof='" + brandstof + '\'' +
+                ", plaque='" + plaque + '\'' +
+                ", aantalWielen='" + aantalWielen + '\'' +
+                ", klant='" + klant + '\'' +
+                '}';
     }
 }
