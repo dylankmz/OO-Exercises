@@ -32,7 +32,6 @@ public class Main {
 
         behzat.printavailableCars();
 
-
         behzat.sellCar(a2);
 
     }
