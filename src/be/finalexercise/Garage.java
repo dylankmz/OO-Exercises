@@ -1,14 +1,22 @@
-package be.vincent;
+package be.finalexercise;
+
+import java.util.ArrayList;
 
 public class Garage {
 
-    //InstanceVariabelen (een unieke variabele voor het object dat je maakt)
     private String employee;
     private String garageName;
 
-    //Statischevariabele (membervariabele) is een variabele die behoort tot de klasse (het is een variabele die geschakeld is aan de klasse)
     private static Voertuig[] tekoopVoertuig = new Voertuig[50];
     private Voertuig[] tereparerenVoertuig;
+
+    public Garage() {
+    }
+
+    public Garage(String employee, String garageName) {
+        this.employee = employee;
+        this.garageName = garageName;
+    }
 
     public String getEmployee() {
         return employee;
@@ -42,42 +50,36 @@ public class Garage {
         this.tereparerenVoertuig = tereparerenVoertuig;
     }
 
-    public void changeOil(Voertuig voertuig) {
-        System.out.println("Your oil is changed, " + "thanks " + voertuig.getKlant() + "!");
+    public void changeOil(Voertuig v) {
+        System.out.println("Olie is veranderd!");
     }
 
-    public void addCar(Voertuig voertuig) {
-        boolean carIsAdded = false;
-
+    public void addCar(Voertuig v) {
+        boolean carisAdded = false;
         for (int i = 0; i < tekoopVoertuig.length; i++) {
-            if (tekoopVoertuig[i] == null) {
-                tekoopVoertuig[i] = voertuig;
-                carIsAdded = true;
-                System.out.println("Car is added to stock!");
-                break;
-            }
-        }
-        if (carIsAdded == false) {
-            System.out.println("No place available in stock");
-        }
-    }
-
-    public void sellCar(Voertuig voertuig) {
-        boolean carIsInStock = false;
-        for (int i = 0; i < tekoopVoertuig.length; i++) {
-            if (tekoopVoertuig[i] == voertuig) {
+            if (tekoopVoertuig[i] == v) {
                 tekoopVoertuig[i] = null;
-                carIsInStock = true;
-                System.out.println("Car sold!");
+                carisAdded = true;
+                System.out.println("Car is sold!");
                 break;
             }
+            if (carisAdded = false) {
+                System.out.println("No place available in stock :(");
+            }
         }
+    }
 
-        if (carIsInStock == false)  {
-            printavailableCars();
-
+    public void sellCar(Voertuig v) {
+        boolean carisInStock = false;
+        for (int i = 0; i < tekoopVoertuig.length; i++) {
+            if (tekoopVoertuig[i] == v) {
+                tekoopVoertuig[i] = null;
+                carisInStock = true;
+            }
+        }
+        if (carisInStock = false) {
             try {
-                throw new Exception("Car is not available to sell!");
+                throw new Exception("Car is not available in our stock!");
             } catch (Exception e) {
                 e.getMessage();
             }
@@ -85,9 +87,10 @@ public class Garage {
     }
 
     public void printavailableCars() {
-        for (int i = 0; i < tekoopVoertuig.length; i++) {
-            if (tekoopVoertuig[i] != null)
-            System.out.println(tekoopVoertuig[i].getMerk());
+        for (int i = 0; i < tekoopVoertuig.length ; i++) {
+            if (tekoopVoertuig[i] == null) {
+                System.out.println(tekoopVoertuig[i].getMerk());
+            }
         }
     }
 }
