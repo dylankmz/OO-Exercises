@@ -1,6 +1,5 @@
 package be.collections;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -46,7 +45,7 @@ public class Main {
                     break;
 
                 default:
-                    System.out.println("Slecht keuze, probeer opnieuw!");
+                    System.out.println("Slechte keuze, probeer opnieuw!");
             }
         }
     }
