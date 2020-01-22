@@ -1,5 +1,8 @@
 package be.vincent;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Garage {
 
     //InstanceVariabelen (een unieke variabele voor het object dat je maakt)
@@ -7,8 +10,9 @@ public class Garage {
     private String garageName;
 
     //Statischevariabele (membervariabele) is een variabele die behoort tot de klasse (het is een variabele die geschakeld is aan de klasse)
+
     private static Voertuig[] tekoopVoertuig = new Voertuig[50];
-    private Voertuig[] tereparerenVoertuig;
+    List<Voertuig> tereparerenVoertuig = new ArrayList<>();
 
     public String getEmployee() {
         return employee;
@@ -34,21 +38,27 @@ public class Garage {
         Garage.tekoopVoertuig = tekoopVoertuig;
     }
 
-    public Voertuig[] getTereparerenVoertuig() {
+    public List<Voertuig> getTereparerenVoertuig() {
         return tereparerenVoertuig;
     }
 
-    public void setTereparerenVoertuig(Voertuig[] tereparerenVoertuig) {
+    public void setTereparerenVoertuig(List<Voertuig> tereparerenVoertuig) {
         this.tereparerenVoertuig = tereparerenVoertuig;
     }
 
     public void changeOil(Voertuig voertuig) {
-        System.out.println("Your oil is changed, " + "thanks " + voertuig.getKlant() + "!");
+        for (int i = 0; i < tereparerenVoertuig.size() ; i++) {
+            if (tereparerenVoertuig.get(i) == voertuig) {
+                System.out.println("Changing Oil: " + employee + ": " + getTereparerenVoertuig().get(i).getMerk());
+                tereparerenVoertuig.remove(i);
+                return;
+            }
+        }
+        System.out.println("Car is not found!");
     }
 
     public void addCar(Voertuig voertuig) {
         boolean carIsAdded = false;
-
         for (int i = 0; i < tekoopVoertuig.length; i++) {
             if (tekoopVoertuig[i] == null) {
                 tekoopVoertuig[i] = voertuig;
@@ -73,7 +83,7 @@ public class Garage {
             }
         }
 
-        if (carIsInStock == false)  {
+        if (carIsInStock == false) {
             printavailableCars();
 
             try {
@@ -87,7 +97,18 @@ public class Garage {
     public void printavailableCars() {
         for (int i = 0; i < tekoopVoertuig.length; i++) {
             if (tekoopVoertuig[i] != null)
-            System.out.println(tekoopVoertuig[i].getMerk());
+                System.out.println(tekoopVoertuig[i].getMerk());
         }
+    }
+
+    public void changeAirco(Voertuig voertuig) {
+        for (int i = 0; i < tereparerenVoertuig.size(); i++) {
+            if (tereparerenVoertuig.get(i) == voertuig) {
+                System.out.println("Changing airco: " + employee + ": " + getTereparerenVoertuig().get(i).getMerk());
+                tereparerenVoertuig.remove(i);
+                return;
+            }
+        }
+        System.out.println("Car is not found!");
     }
 }

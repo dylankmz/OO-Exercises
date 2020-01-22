@@ -1,7 +1,5 @@
 package be.inheritance.persoon;
 
-import java.util.Arrays;
-
 public class Docent extends Persoon {
 
     private String specialisatie;

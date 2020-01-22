@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4be92a-796f-4439-8a65-4ff3f780d88c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Advanced Exercises/be/collections2nd/map/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/collections2nd/map/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Advanced Exercises/be/oo/bank2/BankApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advanced Exercises/be/oo/bank2/BankApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/inheritance/persoon/Docent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/inheritance/persoon/Docent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/inheritance/persoon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/inheritance/persoon/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/vincent/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vincent/Garage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vincent/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vincent/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +50,13 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BankApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.oo.bank2.BankApp" />
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.inheritance.dier.Main" />
       <module name="Advanced Exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.oo.bank2.*" />
+          <option name="PATTERN" value="be.inheritance.dier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,11 +65,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.collections.Main" />
+      <option name="MAIN_CLASS_NAME" value="be.inheritance.persoon.Main" />
       <module name="Advanced Exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.collections.*" />
+          <option name="PATTERN" value="be.inheritance.persoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,11 +78,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.oo.bank.Main" />
+      <option name="MAIN_CLASS_NAME" value="be.vincent.Main" />
       <module name="Advanced Exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.oo.bank.*" />
+          <option name="PATTERN" value="be.vincent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.BankApp" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +153,8 @@
       <workItem from="1579450073496" duration="1717000" />
       <workItem from="1579522451434" duration="9459000" />
       <workItem from="1579616545043" duration="6031000" />
-      <workItem from="1579630693360" duration="3979000" />
+      <workItem from="1579630693360" duration="4358000" />
+      <workItem from="1579640264440" duration="10955000" />
     </task>
     <servers />
   </component>
@@ -162,43 +162,43 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="676" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1579634525065">
+    <state x="676" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1579690223176">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="676" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579272760088" />
     <state x="2453" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579218325063" />
-    <state x="676" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1579634525065" />
+    <state x="676" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1579690223176" />
     <state x="2453" y="231" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1578601047829" />
-    <state width="1638" height="242" key="GridCell.Tab.0.bottom" timestamp="1579636344208">
+    <state width="1638" height="242" key="GridCell.Tab.0.bottom" timestamp="1579695212064">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579270836736" />
     <state width="1878" height="170" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216865884" />
-    <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579636344208" />
+    <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579695212064" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1578600007169" />
     <state width="1638" height="242" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1579621803662" />
-    <state width="1638" height="242" key="GridCell.Tab.0.center" timestamp="1579636344207">
+    <state width="1638" height="242" key="GridCell.Tab.0.center" timestamp="1579695212062">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579270836733" />
     <state width="1878" height="170" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216865883" />
-    <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579636344207" />
+    <state width="1638" height="242" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579695212062" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1578600007162" />
     <state width="1638" height="242" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1579621803660" />
-    <state width="1638" height="242" key="GridCell.Tab.0.left" timestamp="1579636344206">
+    <state width="1638" height="242" key="GridCell.Tab.0.left" timestamp="1579695212061">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579270836731" />
     <state width="1878" height="170" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216865882" />
-    <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579636344206" />
+    <state width="1638" height="242" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579695212061" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1578600007160" />
     <state width="1638" height="242" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1579621803660" />
-    <state width="1638" height="242" key="GridCell.Tab.0.right" timestamp="1579636344207">
+    <state width="1638" height="242" key="GridCell.Tab.0.right" timestamp="1579695212063">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579270836734" />
     <state width="1878" height="170" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579216865884" />
-    <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579636344207" />
+    <state width="1638" height="242" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579695212063" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1578600007168" />
     <state width="1638" height="242" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1579621803661" />
     <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1579606972577">
@@ -217,26 +217,16 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579606972576" />
-    <state x="390" y="89" key="SettingsEditor" timestamp="1579606874297">
+    <state x="390" y="89" key="SettingsEditor" timestamp="1579692700592">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="410" y="174" key="SettingsEditor/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579219346147" />
     <state x="2149" y="179" key="SettingsEditor/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1579212246124" />
-    <state x="390" y="89" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1579606874297" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1579272525982">
+    <state x="390" y="89" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1579692700592" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1579695119544">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1579272525982" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/be/inheritance/persoon/Main.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1579695119544" />
   </component>
 </project>

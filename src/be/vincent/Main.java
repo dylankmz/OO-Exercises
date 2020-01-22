@@ -31,8 +31,21 @@ public class Main {
         behzat.addCar(a1);
 
         behzat.printavailableCars();
-
         behzat.sellCar(a2);
+
+        //Auto komt in garage.
+        ali.getTereparerenVoertuig().add(a1);
+        System.out.println(ali.getTereparerenVoertuig());
+
+        ali.changeOil(a1);
+        System.out.println(ali.getTereparerenVoertuig());
+
+        memo.getTereparerenVoertuig().add(a3);
+        System.out.println(behzat.getTereparerenVoertuig());
+
+        memo.changeAirco(a3);
+        System.out.println(behzat.getTereparerenVoertuig());
+
 
     }
 }

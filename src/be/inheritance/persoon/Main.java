@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Persoon p1 = new Persoon();
+        /*Persoon p1 = new Persoon();
         p1.getNaam();
         p1.getAdres();
         System.out.println(p1.toString());
@@ -35,6 +35,9 @@ public class Main {
         System.out.println(s1.toString());
         System.out.println(s2.toString());
         System.out.println(s3.toString());
-        System.out.println(d1.toString());
+        System.out.println(d1.toString());*/
+
+        Persoon p = new Student();
+        System.out.println(p instanceof Persoon);
     }
 }
